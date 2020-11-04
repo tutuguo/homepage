@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.body{
+	background-color: #000000;
+	background-image: url();
+	
+	
+}
+.IMG{
+	display: flex;
+}
+.imgs{
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img1{
+	
+}
+.img2{
+}
+.p1{
+	width: 800px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.GIF{
+	display: flex;
+}
+.gif{
+	display: block;
+	width: 50%;
+	margin-left: 0px;
+}
+.alpha{
+	display: flex;
+}
+.A{
+	display: block;
+}
+.beta{
+	display: flex;
+}
