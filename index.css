@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.body{
+	background-color: #000000;
+	color: #000000;
+	display: block;
+	padding-top: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-bottom: 2vw;
+}
+.title{
+	display: inline;
+	color: white;
+	/* [disabled]font-family: verdana; */
+	font-size: 1.5vw;
+	position: relative;
+}
+.h1{
+	
+}
+.h2 {
+	text-decoration: none;
+	text-align: right;
+}
+
+.row1{
+	display: flex;
+	width: auto;
+}
+
+/*south*/
+.southpo{
+	width: 24vw;
+}
+.south{
+	width: 24vw;
+	display: block;
+	margin-top: 3vw;
+	/* [disabled]margin-right: 10vw; */
+	margin-left: 7vw;
+	/* [disabled]margin-bottom: 10vw; */
+	position: relative;
+}
+.southgif{
+	width: 24vw;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+	transition: .1s ease;
+}
+.south:hover .southgif{
+	opacity: 1;
+}
+.h3{
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	font-size: 1vw;
+	height: 1vw;
+	position: relative;
+	text-align: right;
+}
+
+/*sanne*/
+.sanne{
+	/* [disabled]margin-right: 3vw; */
+	margin-left: 16vw;
+	margin-top: 10vw;
+	position: relative;
+	display: block;
+	width: 38vw;
+}
+.sanneimg{
+	width: 38vw;
+}
+.h4{
+	color: #FFFFFF;
+	display: block;
+	font-size: 1vw;
+	text-decoration: none;
+	text-align: right;
+}
+
+/*row2*/
+.row2{
+	display: flex;
+	width: auto;
+	margin-top: 5vw;
+}
+
+.colum{
+	display: inline;
+}
+/*story*/
+.storyimg{
+	width: 23vw;
+}
+.storygif{
+	width: 23vw;
+}
+.story{
+	width: 23vw;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-left: 11vw;
+	margin-top: vw;
+	margin-right: 0vw;
+	/* [disabled]margin-bottom: 0vw; */
+	left: 10vw;
+}
+.storygif{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+.story:hover .storygif{
+	opacity: 1;
+}
+.h5{
+	display: block;
+	color: #FFFFFF;
+	position: relative;
+	font-size: 1vw;
+	text-align: right;
+	text-decoration: none;
+}
+
+/*failure*/
+.fabg {
+	/* [disabled]max-width: 500px; */
+	margin-left: 0px;
+	width: 32vw;
+}
+.failure{
+	width: 32vw;
+	display: block;
+	position: relative;
+	margin-left: 10vw;
+	margin-top: 5vw;
+	margin-right: 3vw;
+	margin-bottom: 0vw;
+}
+.fagif{
+	width: 32vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+	transition: .1s ease;
+}
+.failure:hover .fagif{
+	opacity: 1;
+}
+.h6{
+	color: #FFFFFF;
+	display: block;
+	font-size: 1vw;
+	text-align: right;
+	text-decoration: none;
+}
+
+/*lost*/
+.lost{
+	display: block;
+	position: relative;
+	width: 24vw;
+	margin-top: -4vw;
+	margin-right: 0vw;
+	margin-bottom: 0vw;
+	/* [disabled]margin-left: 16vw; */
+	left: 10vw;
+}
+.lostbg{
+	width: 24vw;
+}
+.lostgif{
+	position: absolute;
+	width: 24vw;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+	transition: .1s ease;
+}
+.lost:hover .lostgif{
+	opacity: 1;
+}
+.h7{
+	color: #FFFFFF;
+	display: block;
+	font-size: 1vw;
+}
