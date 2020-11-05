@@ -5,44 +5,53 @@
 	background-image: url("Tutu's website/IMG/south/Textwrap.gif");
 	background-repeat: repeat;
 	background-size: 100%,auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-.Intro{
-	display: flex;
-}
-.gif1{
-	opacity: 1;
-	margin-bottom: 10px;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 .title{
 	display: block;
 	width: auto;
-	height: 200px;
 }
 .h1 {
-	font-size: 50px;
+	font-size: 3vw;
 	font-family: verdana;
 	color: white;
-	margin-left: 20px;
+	margin-left: 3vw;
+	display: block;
+}
+.h11 {
+	display: block;
+	width: 100%;
+	color: white;
+	font-family: verdana;
+	padding-top: 0vw;
+	font-size: 2vw;
+	padding-left: 3.3vw;
+	position: relative;
+	top: -2.5vw;
+}
+.Intro{
+	display: flex;
+}
+.photo1{
+	display: block;
+	width: 50%;
+	padding-top: 2vw;
+	padding-right: 2vw;
+	/* [disabled]padding-left: 10px; */
+	padding-bottom: 2vw;
+}
+.gif1{
+	opacity: 1;
+	width: 50vw;
 }
 .h2 {
 	display: block;
-	width: 600px;
 	color: white;
 	position: relative;
 	padding-top: 50px;
 	font-family: verdana;
-	font-size: 20px;
-	height: 400px;
-}
-.outdoor{
-	width: 100%;
-	height: 100%;
-	display: block;
-	object-fit: cover;
-	position: relative;
-	margin-bottom: 20px;
+	font-size: 1vw;
 }
 .photo2{
 	width: 100%;
@@ -50,31 +59,22 @@
 	display: block;
 	object-fit: cover;
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 1vw;
 }
 .row1{
 	display: flex;
 }
-.photo1{
+.outdoor{
+	width: 100%;
+	height: 100%;
 	display: block;
-	width: 50%;
-	padding-top: 10px;
-	padding-right: 10px;
-	/* [disabled]padding-left: 10px; */
-	padding-bottom: 10px;
+	object-fit: cover;
+	position: relative;
+	margin-bottom: 1vw;
 }
 .metro {
-	padding-top: 30px;
-}
-.h11 {
-	display: block;
-	width: 100%;
-	color: white;
-	font-family: verdana;
-	padding-top: 0px;
-	font-size: 30px;
-	padding-left: 20px;
-	padding-bottom: 5px;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 .expo1{
 	width: 100%;
@@ -82,5 +82,5 @@
 	display: block;
 	object-fit: cover;
 	position: relative;
-	padding-bottom: 10px;
+	padding-bottom: 2vw;
 }

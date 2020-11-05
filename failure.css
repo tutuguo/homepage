@@ -7,19 +7,24 @@
 	background-image: url("Tutu's website/IMG/failure/AwardFailure.png");
 	background-repeat: repeat;
 	background-size: 100%,100%;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	height: auto;
 }
 .h1{
-	color: #FEF101;
+	color: #D4291F;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-style: normal;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 8.5vw;
 	font-variant: normal;
 	display: block;
 	width: 100%;
 	text-decoration: none;
+	text-align: center;
+	padding-top: 3.6vw;
+	padding-bottom: 1vw;
+	top: auto;
 }
 .bg{
 	position: relative;
@@ -30,29 +35,33 @@
 	margin-left: auto;
 	/* [disabled]padding-top: 100px; */
 	/* [disabled]padding-bottom: 100px; */
+	top: -7vw;
 }
 .bgimg{
 	position: relative;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 45%;
+	/* [disabled]max-width: 45%; */
 	overflow: hidden;
+	width: 45vw;
+	top: 1.6vw;
 }
+
 .g1{
-	max-width: 23%;
+	max-width: 20%;
 	position: relative;
-	left: 50%;
-	right: 50%;
-	top: -281px;
+	left: 39vw;
+	bottom: 26vw;
+	right: 36vw;
 }
 .f1{
 	position: relative;
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	left: 259px;
-	top: -487px;
+	left: 11vw;
+	bottom: 51vw;
 }
 .f1:hover{
 	transform: rotate(30deg) scale(5.5);
@@ -62,8 +71,8 @@
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	top: -580px;
-	left: 341px;
+	left: 22.2vw;
+	bottom: 41.2vw;
 }
 .f2:hover{
 	transform: rotate(30deg) scale(5.5);
@@ -73,8 +82,8 @@
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	top: -366px;
-	left: 751px;
+	left: 27.5vw;
+	bottom: 45.2vw;
 }
 .f3:hover{
 	transform: rotate(30deg) scale(5.5);
@@ -85,8 +94,8 @@
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	top: -508px;
-	left: 636px;
+	left: -6.6vw;
+	bottom: 37.4vw;
 }
 .f4:hover{
 	transform: rotate(30deg) scale(5.5);
@@ -97,8 +106,8 @@
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	top: -670px;
-	left: 180px;
+	left: -1.2vw;
+	bottom: 45.5vw;
 }
 .f5:hover{
 	transform: rotate(30deg) scale(5.5);
@@ -108,8 +117,8 @@
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	top: -670px;
-	left: 344px;
+	left: 3.8vw;
+	bottom: 37.4vw;
 }
 .f6:hover{
 	transform: rotate(30deg) scale(5.5);
@@ -119,8 +128,8 @@
 	max-width: 6%;
 	transition: width 0.2s, height 0.2s, transform 0.2s;
 	transform-origin: top left;
-	top: -509px;
-	left: 85px;
+	left: 6.6vw;
+	bottom: 31.8vw;
 }
 .f7:hover{
 	transform: rotate(30deg) scale(5.5);

@@ -2,29 +2,16 @@
 .body{
 	background-color: #000000;
 	background-image: url();
-	
-	
+	padding-left: 2vw;
+	padding-right: 2vw;	
 }
-.IMG{
-	display: flex;
-}
-.imgs{
-	display: block;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.img1{
-	
-}
-.img2{
-}
-.p1{
-	width: 800px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+
+.h1{
+	color: #FFFFFF;
+	font-size: 3vw;
+	text-align: left;
+	font-variant: normal;
+	text-decoration: none;
 }
 .GIF{
 	display: flex;
@@ -32,14 +19,43 @@
 .gif{
 	display: block;
 	width: 50%;
-	margin-left: 0px;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.IMG{
+	display: flex;
+	margin-top: 6vw;
+}
+.imgs{
+	display: block;
+	width: 50%;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+.rowbig{
+	margin-top: 4vw;
+	height: auto;
+	display: flex;
+}
+.p1{
+	/* [disabled]width: 50vw; */
+	color: #FFFFFF;
+	display: block;
+	/* [disabled]margin-left: 4vw; */
+	padding-left: 3vw;
+	font-size: 1.5vw;
+	padding-top: 0.8vw;
 }
 .alpha{
-	display: flex;
+	display: block;
 }
 .A{
 	display: block;
+	padding-left: 0vw;
+	margin-left: -1vw;
+	margin-right: -1vw;
 }
-.beta{
+.row{
 	display: flex;
 }

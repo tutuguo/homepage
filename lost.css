@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.body{
+	background-color: #000000;
+	color: #000000;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 2vw;
+}
+
+.logo{
+	width: 300px;
+}
+.video{
+	display: flex;
+	padding-top: 2vw;
+}
+.p1{
+	color: #FFFFFF;
+	padding-right: 2vw;
+	font-size: 1vw;
+	display: block;
+	width: 30vw;
+}
+
+.row1{
+	margin-top: 3vw;
+	display: flex;
+	position: relative;
+}
+.rowsmall{
+	margin-right: 5vw;
+	display: block;
+}
+.poster{
+	height: auto;
+	display: block;
+	width: 30vw;
+}
+.result{
+	width: 10vw;
+	/* [disabled]margin-left: 2vw; */
+	display: block;
+	/* [disabled]padding-left: 2vw; */
+	height: auto;
+}
+.p2{
+	color: #FFFFFF;
+	display: block;
+	position: relative;
+	margin-right: 2vw;
+	font-size: 1vw;
+}
