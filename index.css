@@ -9,6 +9,7 @@
 	padding-left: 2vw;
 	padding-right: 2vw;
 	padding-bottom: 2vw;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 .title{
 	display: flex;
@@ -19,6 +20,7 @@
 .h1{
 	width: 100%;
 	font-size: 2vw;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 .h2 {
 	text-align: right;
@@ -204,4 +206,6 @@
 	display: block;
 	font-size: 1vw;
 	text-decoration: underline;
+	text-align: right;
+	position: relative;
 }

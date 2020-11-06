@@ -3,7 +3,8 @@
 	background-color: #000000;
 	background-image: url();
 	padding-left: 2vw;
-	padding-right: 2vw;	
+	padding-right: 2vw;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
 .h1{
@@ -39,8 +40,6 @@
 	display: flex;
 }
 .p1{
-	/* [disabled]width: 50vw; */
-	color: #FFFFFF;
 	display: block;
 	/* [disabled]margin-left: 4vw; */
 	padding-left: 3vw;
