@@ -14,21 +14,23 @@
 }
 .h1 {
 	font-size: 3vw;
-	font-family: verdana;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color: white;
 	margin-left: 3vw;
 	display: block;
+	font-weight: 500;
 }
 .h11 {
 	display: block;
 	width: 100%;
 	color: white;
-	font-family: verdana;
-	padding-top: 0vw;
-	font-size: 2vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-top: vw;
+	font-size: 1.5vw;
 	padding-left: 3.3vw;
 	position: relative;
-	top: -2.5vw;
+	top: -1.8vw;
+	text-align: left;
 }
 .Intro{
 	display: flex;
@@ -45,13 +47,18 @@
 	opacity: 1;
 	width: 50vw;
 }
+
+.IntroP{
+	font-size: 2vw;
+	font-weight: 400;
+}
 .h2 {
 	display: block;
 	color: white;
 	position: relative;
-	padding-top: 50px;
-	font-family: verdana;
-	font-size: 1vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 1.3vw;
+	font-weight: 400;
 }
 .photo2{
 	width: 100%;

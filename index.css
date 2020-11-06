@@ -5,24 +5,27 @@
 	background-color: #000000;
 	color: #000000;
 	display: block;
-	padding-top: 2vw;
+	padding-top: 1vw;
 	padding-left: 2vw;
 	padding-right: 2vw;
 	padding-bottom: 2vw;
 }
 .title{
-	display: inline;
+	display: flex;
 	color: white;
 	/* [disabled]font-family: verdana; */
-	font-size: 1.5vw;
 	position: relative;
 }
 .h1{
-	
+	width: 100%;
+	font-size: 2vw;
 }
 .h2 {
-	text-decoration: none;
 	text-align: right;
+	width: 100%;
+	font-size: 2vw;
+	text-decoration: underline;
+	color: #FFFFFF;
 }
 
 .row1{
@@ -37,7 +40,7 @@
 .south{
 	width: 24vw;
 	display: block;
-	margin-top: 3vw;
+	margin-top: 1vw;
 	/* [disabled]margin-right: 10vw; */
 	margin-left: 7vw;
 	/* [disabled]margin-bottom: 10vw; */
@@ -59,7 +62,7 @@
 .h3{
 	color: #FFFFFF;
 	display: block;
-	text-decoration: none;
+	text-decoration: underline;
 	font-size: 1vw;
 	height: 1vw;
 	position: relative;
@@ -82,7 +85,7 @@
 	color: #FFFFFF;
 	display: block;
 	font-size: 1vw;
-	text-decoration: none;
+	text-decoration: underline;
 	text-align: right;
 }
 
@@ -131,7 +134,7 @@
 	position: relative;
 	font-size: 1vw;
 	text-align: right;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /*failure*/
@@ -166,7 +169,7 @@
 	display: block;
 	font-size: 1vw;
 	text-align: right;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /*lost*/
@@ -200,4 +203,5 @@
 	color: #FFFFFF;
 	display: block;
 	font-size: 1vw;
+	text-decoration: underline;
 }

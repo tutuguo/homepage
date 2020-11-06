@@ -8,18 +8,28 @@
 }
 
 .logo{
-	width: 300px;
+	width: 30vw;
 }
 .video{
 	display: flex;
-	padding-top: 2vw;
+	position: relative;
+	margin-top: 3vw;
+	margin-right: 3vw;
+	margin-bottom: 3vw;
+	margin-left: 3vw;
 }
 .p1{
 	color: #FFFFFF;
-	padding-right: 2vw;
-	font-size: 1vw;
+	font-size: 1.4vw;
 	display: block;
-	width: 30vw;
+	white-space: normal;
+	text-align: left;
+	text-decoration: none;
+	margin-top: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 2vw;
+	margin-left: 2vw;
+	/* [disabled]max-width: 40%; */
 }
 
 .row1{
@@ -27,21 +37,23 @@
 	display: flex;
 	position: relative;
 }
+.photo1{
+	display: block;
+	width: 50%;
+	padding-top: 1vw;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	padding-bottom: 1vw;
+}
 .rowsmall{
 	margin-right: 5vw;
-	display: block;
+	display: flex;
+	max-width: 50%;
 }
 .poster{
 	height: auto;
 	display: block;
 	width: 30vw;
-}
-.result{
-	width: 10vw;
-	/* [disabled]margin-left: 2vw; */
-	display: block;
-	/* [disabled]padding-left: 2vw; */
-	height: auto;
 }
 .p2{
 	color: #FFFFFF;
@@ -49,4 +61,5 @@
 	position: relative;
 	margin-right: 2vw;
 	font-size: 1vw;
+	width: 30vw;
 }
